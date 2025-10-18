@@ -1,0 +1,14 @@
+{
+  "name": "profile-card",
+  "version": "1.0.0",
+  "description": "Profile card for hng 13 stage zero task",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adefolami",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  }
+}
