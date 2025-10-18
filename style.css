@@ -42,7 +42,7 @@ body {
 }
 .profile-card {
   width: 75vw;
-  height: 60vh;
+  height: 80vh;
   padding: 2rem;
   margin: auto;
   border-radius: 5rem;
@@ -85,7 +85,7 @@ body {
   justify-content: center;
 }
 .profile-avatar {
-  width: 100%;
+  width: 80%;
   margin: auto;
   border-radius: 50%;
 }
@@ -113,7 +113,7 @@ body {
   }
 }
 .user-name {
-  font-size: 3rem;
+  font-size: 2.5rem;
   align-self: center;
   margin: 1rem;
 }
@@ -130,14 +130,14 @@ body {
   }
 }
 .user-bio {
-  font-size: 2.5rem;
+  font-size: 2rem;
   width: 90%;
   margin: 1rem;
   align-self: center;
 }
 @media (max-width: 1200px) {
   .user-bio {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 @media (max-width: 900px) {
@@ -163,7 +163,7 @@ body {
   }
 }
 .social-links-heading {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 @media (max-width: 1200) {
   .social-links-heading {
@@ -184,7 +184,7 @@ body {
   list-style: none;
   padding: 1rem;
   margin: 1rem;
-  width: 60%;
+  width: 70%;
   display: flex;
   justify-content: space-between;
 }
@@ -192,7 +192,6 @@ body {
   .social-links-container {
     padding: 0.75rem;
     margin: 0.75rem;
-    width: 70%;
   }
 }
 @media (max-width: 900px) {
@@ -255,12 +254,7 @@ body {
   flex-direction: column;
 }
 .user-attributes-heading {
-  font-size: 2.5rem;
-}
-@media (max-width: 1200px) {
-  .user-attributes-heading {
-    font-size: 2rem;
-  }
+  font-size: 2rem;
 }
 @media (max-width: 900px) {
   .user-attributes-heading {
