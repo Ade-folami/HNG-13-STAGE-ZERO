@@ -95,6 +95,10 @@ body {
     margin: auto;
   }
 }
+.time {
+  font-size: 1.6rem;
+  margin: 1rem;
+}
 .user-details {
   display: flex;
   flex-direction: column;
