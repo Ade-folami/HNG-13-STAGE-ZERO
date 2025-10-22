@@ -79,6 +79,11 @@ body {
     background-color: inherit;
   }
 }
+.profile-card-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 .avatar-container {
   display: flex;
   flex-direction: column;
@@ -99,6 +104,33 @@ body {
   font-size: 1.6rem;
   margin: 1rem;
 }
+.profile-card-links {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  margin: 1rem;
+}
+.page-link {
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+  background-color: black;
+  color: white;
+  border-radius: 10rem;
+  transition: all 0.3s;
+}
+.page-link:hover {
+  transform: translateY(-0.5rem) scale(1.1);
+  background-color: white;
+  color: black;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+.page-link:active,
+.page-link:focus {
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
 .user-details {
   display: flex;
   flex-direction: column;
@@ -304,4 +336,139 @@ body {
   list-style: none;
   margin: 0.5rem;
   font-size: 1.5rem;
+}
+
+/* Stylng for 'ABOUT ME' page */
+.about-page {
+  width: 60vw;
+  height: auto;
+  /* background-color: rgba(36, 24, 199, 0.932); */
+  background-color: white;
+  margin: auto;
+  border-radius: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.about-bio {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+  margin: 1rem;
+}
+.about-bio-heading {
+  font-size: 2rem;
+}
+.about-bio-text {
+  display: inline-block;
+  width: 70%;
+}
+.about-goals {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+.about-goals-heading {
+  font-size: 2rem;
+}
+.about-goals-list {
+  display: flex;
+  padding: 1rem;
+  margin: 1rem;
+}
+.about-goals-list-item {
+  list-style: none;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.about-confidence {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+}
+.about-confidence-heading {
+  font-size: 2rem;
+}
+.about-confidence-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  list-style: none;
+}
+.about-future-note {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+.about-future-note-heading {
+  font-size: 2rem;
+}
+.about-future-note-text {
+  display: inline-block;
+  width: 70%;
+}
+.about-extra {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+/*Styling for 'CONTACT US' page*/
+.form-container {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: auto;
+  border-radius: 5rem;
+}
+.form-heading {
+  margin: 1rem;
+  align-self: center;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70%;
+  height: auto;
+  margin: auto;
+  padding: 2rem;
+}
+.contact-input-field {
+  padding: 1rem;
+}
+.contact-input-label {
+  font-style: italic;
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
+.contact-submit {
+  width: 20%;
+  padding: 1rem 1.5rem;
+  margin: 2rem;
+  align-self: center;
+  font-size: 1.5rem;
+  background-color: rgba(36, 24, 199, 0.932);
+  color: white;
+  border-radius: 5rem;
+  border: none;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.contact-submit:hover {
+  transform: translateY(-0.5rem) scale(1.1);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+.contact-submit:active,
+.contact-submit:focus {
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }

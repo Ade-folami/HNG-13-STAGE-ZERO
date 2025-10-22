@@ -1,0 +1,2 @@
+"use strict";let timeNow=document.querySelector(".user-time"),fullName=document.getElementById("contact-name"),email=document.getElementById("contact-email"),subject=document.getElementById("contact-subject"),message=document.getElementById("contact-message"),submitBtn=document.getElementById("form-button"),updateTime=function(){timeNow.textContent=Date.now()};updateTime(),setInterval(updateTime,1e3),submitBtn.addEventListener("click",function(){document.getElementById("testing-par").innerHTML=Date.now()});
+//# sourceMappingURL=Stage 0 Task.a6dd6489.js.map
