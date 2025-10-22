@@ -1,28 +1,21 @@
-<!DOCTYPE html><html lang="en"><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="/Stage%200%20Task.3a01df49.css">
-    <script defer="" src="/Stage%200%20Task.672d4772.js"></script>
-  </head>
-  <body>
-    <div class="form-container">
-      <h1 class="form-heading">SEND US A MESSAGE</h1>
-      <form action="" class="contact-form">
-        <label for="contact-name" class="contact-input-label">Full Name</label>
-        <input type="text" data-testid="test-contact-name" class="contact-input-field" id="contact-name" placeholder="Full Name">
-        <label for="contact-email" class="contact-input-label">Email</label>
-        <input type="email" data-testid="test-contact-email" placeholder="name@example.com" class="contact-input-field" id="contact-email">
-        <label for="contact-subject" class="contact-input-label">Subject</label>
-        <input type="text" name="contact-subject" minlength="10" data-testid="test-contact-subject" class="contact-input-field" id="contact-subject" required="">
-        <label for="contact-message" class="contact-input-label">Message</label>
-        <input type="text" data-testid="test-contact-message" class="contact-input-field" id="contact-message">
-        <input type="submit" data-testid="test-contact-submit" class="contact-submit" id="form-button">
+<!DOCTYPE html><html lang=en><meta charset=UTF-8><meta name=viewport content="width=device-width, initial-scale=1.0"><title>Contact Us</title><link rel=stylesheet href=/Stage%200%20Task.fc751b9a.css><script defer src=/Stage%200%20Task.ea97fa5f.js></script><body>
+    <div class=form-container>
+      <h1 class=form-heading>SEND US A MESSAGE</h1>
+      <form action=https://formsubmit.co/akintokunadefolami@gmail.com method=post class=contact-form id=contact-form data-testid=test-contact-form>
+        <input type=hidden name=_captcha value=false>
+        <label for=contact-name class=contact-input-label>Full Name</label>
+        <input name=contact-name data-testid=test-contact-name class=contact-input-field id=contact-name placeholder="Full Name" required>
+        <label for=contact-email class=contact-input-label>Email</label>
+        <input type=email name="contact-email data-testid=" test-contact-email" placeholder=name@example.com class=contact-input-field id=contact-email required>
+        <label for=contact-subject class=contact-input-label>Subject</label>
+        <input name=contact-subject minlength=10 data-testid=test-contact-subject class=contact-input-field id=contact-subject required>
+        <label for=contact-message class=contact-input-label>Message</label>
+        <input name=contact-message data-testid=test-contact-message class=contact-input-field id=contact-message required>
+        <input type=submit name=form-button data-testid=test-contact-submit class=contact-submit id=form-button>
       </form>
-      <div class="testing">
-        <p class="testing-par" id="testing-par"></p>
-      </div>
+      <p class=success id=success-message data-testid=test-contact-success style=display:none>
+        Message sent successfully!
+      </p>
     </div>
   
 
-<script src="/contact.ebdd7f4b.js"></script></body></html>

@@ -10,23 +10,28 @@
   <body>
     <div class="form-container">
       <h1 class="form-heading">SEND US A MESSAGE</h1>
-      <form action="" class="contact-form">
+      <form
+        action="https://formsubmit.co/akintokunadefolami@gmail.com"
+        method="POST"
+        class="contact-form"
+        id="contact-form"
+        data-testid="test-contact-form"
+      >
+        <input type="hidden" name="_captcha" value="false" />
         <label for="contact-name" class="contact-input-label">Full Name</label>
         <input
           type="text"
+          name="contact-name"
           data-testid="test-contact-name"
           class="contact-input-field"
           id="contact-name"
           placeholder="Full Name"
+          required
         />
         <label for="contact-email" class="contact-input-label">Email</label>
-        <input
-          type="email"
-          data-testid="test-contact-email"
-          placeholder="name@example.com"
-          class="contact-input-field"
-          id="contact-email"
-        />
+        <input type="email" name="contact-email data-testid="test-contact-email"
+        placeholder="name@example.com" class="contact-input-field"
+        id="contact-email" required />
         <label for="contact-subject" class="contact-input-label">Subject</label>
         <input
           type="text"
@@ -40,20 +45,28 @@
         <label for="contact-message" class="contact-input-label">Message</label>
         <input
           type="text"
+          name="contact-message"
           data-testid="test-contact-message"
           class="contact-input-field"
           id="contact-message"
+          required
         />
         <input
           type="submit"
+          name="form-button"
           data-testid="test-contact-submit"
           class="contact-submit"
           id="form-button"
         />
       </form>
-      <div class="testing">
-        <p class="testing-par" id="testing-par"></p>
-      </div>
+      <p
+        class="success"
+        id="success-message"
+        data-testid="test-contact-success"
+        style="display: none"
+      >
+        Message sent successfully!
+      </p>
     </div>
   </body>
 </html>

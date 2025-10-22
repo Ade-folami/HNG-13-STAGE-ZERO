@@ -377,7 +377,7 @@ body {
 
 .about-page {
   text-align: center;
-  background-color: #fff;
+  background-color: #2418c7ee;
   border-radius: 5rem;
   flex-direction: column;
   justify-content: space-between;
@@ -391,7 +391,7 @@ body {
 
 .about-bio {
   flex-direction: column;
-  align-items: flex-start;
+  align-self: center;
   width: 80%;
   margin: 1rem;
   display: flex;
@@ -403,6 +403,7 @@ body {
 
 .about-bio-text {
   width: 70%;
+  margin: auto;
   display: inline-block;
 }
 
@@ -417,7 +418,7 @@ body {
 }
 
 .about-goals-list {
-  margin: 1rem;
+  margin: 1 rem;
   padding: 1rem;
   display: flex;
 }
@@ -459,6 +460,7 @@ body {
 
 .about-future-note-text {
   width: 70%;
+  margin: auto;
   display: inline-block;
 }
 
@@ -494,7 +496,13 @@ body {
 }
 
 .contact-input-field {
+  border: 1px solid #000;
+  border-radius: 1rem;
   padding: 1rem;
+}
+
+.contact-input-field:focus {
+  border: 1px #00f;
 }
 
 .contact-input-label {
@@ -525,5 +533,9 @@ body {
 .contact-submit:active, .contact-submit:focus {
   transform: translateY(-1px);
   box-shadow: 0 .5rem 1rem #0003;
+}
+
+.contact-success {
+  display: none;
 }
 /*# sourceMappingURL=Stage 0 Task.3a01df49.css.map */
